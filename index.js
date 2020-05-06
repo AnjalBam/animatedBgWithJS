@@ -16,7 +16,7 @@ const getRandomNum = (min, max) => {
 const getRandomPosX = () => getRandomNum(0, screenWidth);
 const getRandomPosY = () => getRandomNum(0, screenHeight);
 
-const bgImages = [
+let bgImages = [
   "./img/circle.png",
   "./img/pentagon.png",
   "./img/circle.png",

@@ -10,7 +10,10 @@ https://bganimatedbyanjal.imfast.io/
 This project is based on my curiosity to animate Background images set up with `background` property in css.
 If you want to use this repo or file in your project just add Images to the img file and index them in the index.js file in the `bgImages` array and you shall be good to go.
 
-AdditionalInfo: I created the background images usinf Figma. On refresh the images get rendered on different spot on screen and begin to Animate.
+Additional Info:
+
+- I created the background images using Figma.
+- On refresh the images get rendered on different spot on screen and begin to Animate.
 
 ### How it Works?
 

@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .center-div {
   color: rgb(38, 34, 41);
@@ -33,4 +34,38 @@ body {
 .center-div p {
   font-size: 1.5rem;
   color: #283244;
+}
+
+.center-div a {
+  text-decoration: none;
+  color: rgb(182, 76, 38);
+  padding: 5px 10px;
+}
+
+.center-div a:hover {
+  color: rgb(187, 103, 72);
+  text-decoration: underline;
+}
+
+.center-div p:last-child {
+  font-size: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(25, 27, 36, 0.4);
+  font-size: 1rem;
+  padding: 5px;
+  color: #0a2049;
+}
+
+@media screen and (max-width: 600px) {
+  .center-div h1 {
+    font-size: 2rem;
+  }
+  .center-div p {
+    font-size: 1rem;
+  }
 }

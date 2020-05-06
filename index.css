@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: #b8cdf5;
+  font-family: sans-serif;
+}
+
+#animate-bg {
+  background-size: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center-div {
+  color: rgb(38, 34, 41);
+  background-color: rgba(25, 27, 36, 0.1);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  border-radius: 1rem;
+}
+.center-div h1 {
+  color: #800060;
+  padding: 1.5rem;
+  font-size: 4rem;
+}
+.center-div p {
+  font-size: 1.5rem;
+  color: #283244;
+}
